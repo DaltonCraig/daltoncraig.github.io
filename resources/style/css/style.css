@@ -7,5 +7,34 @@ header h1{
 body{
     background-image: url("../../pictures/space.jpg");
     background-repeat: repeat;
-    background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+  display: block;
+  font-size: 30px;
+  color: green;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  text-shadow: -1px 1px black;
+}
+
+nav ul li a:hover{
+    background-color: gray;
+}
+
+.active{
+    background-color: purple;
 }
