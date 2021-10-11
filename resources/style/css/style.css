@@ -1,5 +1,5 @@
 header h1{
-    font-size: 50px;
+    font-size: 3em;
     color: white;
     text-align: center;
 }
@@ -9,16 +9,23 @@ body{
     background-repeat: repeat;
 }
 
+
+ /*Nav bar*/
+
+ 
 nav ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-left: 25%;
+  margin-right: 25%;
   overflow: hidden;
-  background-color: black;
+  background-color: white;
+  padding: 0;
 }
 
 nav ul li {
     float: left;
+    background-color: black;
+    border: .08em solid blue;
 }
 
 nav ul li a {
@@ -38,6 +45,10 @@ nav ul li a:hover{
 .active{
     background-color: purple;
 }
+
+
+/*Formatting classes*/
+
 
 .large{
     font-size: 28px;
