@@ -11,9 +11,6 @@ html{
     margin-left: 0%;
 }
 header{
-    position: fixed;
-    top: 0;
-    width: 100%;
     border-bottom: solid 1px black;
     background-color: beige;
 }
@@ -79,6 +76,5 @@ nav h3 a:hover{
 
 #main{
     background-color: rgb(255, 255, 238);
-    margin-top: 15vw;
     padding: .1vw 1vw 100% 1vw;
 }
