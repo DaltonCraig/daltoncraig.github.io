@@ -1,74 +1,64 @@
-@font-face {
-    font-family: 'Open Sans Condensed';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMRw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-body header{
-    border-bottom: solid 1px black;
-    background-color: beige;
-    margin: -.5em;
-    padding-top: .25em;
-}
-
-header h1{
-    text-align: center;
-    font-family: 'Open Sans Condensed';
-    font-size: 72px;
-    margin-bottom: 0%;
-    margin-top: 0%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body{
-    background-color: rgb(255, 255, 238);
+    background-image: url("/resources/images/ttcafromabove.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 47em;
+    display: flex;
 }
 
-
- /*Nav bar*/
-
-
-nav h3{
-    text-align: center;
-    letter-spacing: .15em;
-    color: gray;
-    font-weight: lighter;
+header{
+    display: flex;
+    background-color: rgba(255,255,255,75%);
+    position: fixed;
+    width: 99%;
 }
- 
-nav h3 a:link{
-    color: gray;
-    text-decoration: none;
+header img{
+    display: flex;
+    justify-content: left;
+    height: 7em;
+    width: 7em;
+    margin-left: 1em;
 }
-
-nav h3 a:visited{
-    color: gray;
-    text-decoration: none;
-}
-
-nav h3 a:hover{
-    color: black;
-    text-decoration: underline;
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7em;
+    width: 100%;
 }
 
-.active{
-    color: black;
-    font-weight: bold;
+header nav p{
+    margin: 0em 1em;
 }
 
-
-/*Formatting classes*/
-
-
-.large{
-    font-size: 20px;
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+    width: 99%;
+    height: 35em;
 }
 
-.black{
-    color: black;
+#welcomeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50em;
+    justify-content: center;
+    margin-top: 10em;
 }
 
-.normal{
-    font-weight: normal;
+#welcomeContainer h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 6em;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#welcomeContainer h2{
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black;
 }
