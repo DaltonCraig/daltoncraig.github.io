@@ -4,7 +4,7 @@ body{
     background-image: url("/resources/images/ttcafromabove.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 47em;
+    height: 100vh;
     display: flex;
 }
 
@@ -14,6 +14,7 @@ header{
     position: fixed;
     width: 99%;
 }
+
 header img{
     display: flex;
     justify-content: left;
@@ -21,6 +22,7 @@ header img{
     width: 7em;
     margin-left: 1em;
 }
+
 header nav{
     display: flex;
     justify-content: center;
