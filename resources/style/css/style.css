@@ -4,7 +4,7 @@ body{
     background-image: url("/resources/images/ttcafromabove.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 125vh;
+    height: 110vh;
     display: flex;
 }
 
